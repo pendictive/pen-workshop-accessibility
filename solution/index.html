@@ -1624,7 +1624,7 @@
   - Escape key closes modal
   - Focus returns to trigger element on close
 
-  FIX #16: REMOVED aria-hidden="true" from the modal footer.
+  REMOVED aria-hidden="true" from the modal footer.
   The buttons inside are interactive and must be accessible.
 -->
 <div class="modal-overlay" id="quickViewModal"
@@ -1643,7 +1643,7 @@
       <p>Premium wireless headphones with active noise cancellation, 30-hour battery,
         and studio-quality sound. Available in 4 colors.</p>
     </div>
-    <!-- FIX #16: Removed aria-hidden="true" that was hiding these interactive buttons -->
+    <!-- Removed aria-hidden="true" that was hiding these interactive buttons -->
     <div class="modal-footer">
       <button class="modal-btn modal-btn-secondary" onclick="closeModal()">Close</button>
       <button class="modal-btn modal-btn-primary" onclick="addToCart(); closeModal();">Add to Cart</button>

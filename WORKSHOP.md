@@ -536,6 +536,8 @@ function closeModal() {
 
 Simply remove `aria-hidden="true"` from any visible, interactive content. `aria-hidden="true"` should only be used on content that is genuinely invisible or purely decorative (like an icon next to text that already provides the same information).
 
+> **Also check the modal footer.** The starter has `aria-hidden="true"` on the modal footer `<div>`, which hides the interactive Close and Add to Cart buttons from screen readers. Remove that attribute as well.
+
 **Fix 5: Add `aria-live` for dynamic cart updates**
 
 ```html
